@@ -1,0 +1,93 @@
+{
+  "info": {
+      "id": "371313",
+      "name": "President Dhaba",
+      "cloudinaryImageId": "ciyohkyqxfyxkxfrzwx5",
+      "locality": "Jagruti Colony",
+      "areaName": "Hanamkonda",
+      "costForTwo": "₹320 for two",
+      "cuisines": [
+          "Biryani",
+          "Kebabs",
+          "South Indian"
+      ],
+      "avgRating": 4.3,
+      "parentId": "18990",
+      "avgRatingString": "4.3",
+      "totalRatingsString": "1K+",
+      "sla": {
+          "deliveryTime": 16,
+          "lastMileTravel": 0.7,
+          "serviceability": "SERVICEABLE",
+          "slaString": "15-20 mins",
+          "lastMileTravelString": "0.7 km",
+          "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+          "nextCloseTime": "2024-07-28 22:45:00",
+          "opened": true
+      },
+      "badges": {
+          "imageBadges": [
+              {
+                  "imageId": "Rxawards/_CATEGORY-North%20Indian.png",
+                  "description": "Delivery!"
+              }
+          ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+          "entityBadges": {
+              "imageBased": {
+                  "badgeObject": [
+                      {
+                          "attributes": {
+                              "description": "Delivery!",
+                              "imageId": "Rxawards/_CATEGORY-North%20Indian.png"
+                          }
+                      }
+                  ]
+              },
+              "textBased": {},
+              "textExtendedBadges": {}
+          }
+      },
+      "aggregatedDiscountInfoV3": {
+          "header": "40% OFF",
+          "subHeader": "UPTO ₹80"
+      },
+      "orderabilityCommunication": {
+          "title": {},
+          "subTitle": {},
+          "message": {},
+          "customIcon": {}
+      },
+      "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {},
+              "video": {}
+          }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {},
+      "externalRatings": {
+          "aggregatedRating": {
+              "rating": "--"
+          }
+      },
+      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+  },
+  "analytics": {
+      "context": "seo-data-316a976f-b3d9-4004-9a08-f62beb6c006b"
+  },
+  "cta": {
+      "link": "https://www.swiggy.com/restaurants/president-dhaba-jagruti-colony-hanamkonda-warangal-371313",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+  },
+  "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+}

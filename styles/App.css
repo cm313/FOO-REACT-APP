@@ -1,0 +1,130 @@
+/*.header{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  height: 100px;
+}
+.login-btn{
+  padding: 0px 10px;
+  cursor: pointer;
+  background-color:white;
+  border: none;
+  font-family: italic;
+  font-size: 90%;
+}
+.login-btn:hover{
+  color:orange;
+}
+.logo {
+  width: 150px;
+  height: 100px;
+}
+.nav-items > ul {
+  font-size: 20px;
+  display: flex;
+  list-style-type: none;
+  padding-right: 50px;
+}
+.nav-items > ul > li {
+  padding: 20px;
+  cursor: pointer;
+  text-decoration:none;
+
+}
+.nav-items > ul > li:hover{
+  color: orange;
+}
+.food-logo{
+  width: 150px;
+  height: 150px;
+}
+.restro-card{
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(211,211,211); 
+  line-height: 30px;
+  font-family: arial;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.restro-card:hover{
+  border: 1px solid black;
+}
+.card-title{
+  font-weight: bold;
+}
+.restro-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-details .cuisines{
+  width: 130px; 
+}
+.search .search-bar{
+  padding: 8px 2px;
+  border: 1px solid rgb(211,211,211);
+  box-shadow: 1px 2px 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.search .search-btn{
+ background-color:rgb(255, 115, 0);
+ border:none;
+ padding:8.5px 2px;
+ cursor: pointer;
+ color: white;
+ font-weight: 700;
+ border-top-right-radius: 5px;
+border-bottom-right-radius: 5px ;
+}
+.search .search-btn:hover{
+  background-color: aliceblue;
+  color: black;
+  box-shadow: 1px 2px 10px;
+}
+.filter{
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+}
+
+.filter-btn{
+  background-color:rgb(255, 115, 0);
+  border: none;
+  padding: 10px 10px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-family: arial;
+  font-weight: 600;
+  color:white;
+  margin-left: 10px;
+}
+.filter-btn:hover{
+  background-color:aliceblue;
+  color: black;
+  box-shadow: 1px 2px 10px;
+  
+} */
+.shimmer-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.shimmer-card{
+  width: 250px;
+  height: 200px;
+  background-color: rgb(240,238,238);
+  margin: 20px;
+  border-radius: 10px;
+}
+.shimmer-button{
+  width: 200px;
+  height: 40px;
+  background-color: rgb(211,211,211);
+  margin: 20px;
+  border-radius: 50px;
+
+}
+  

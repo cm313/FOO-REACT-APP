@@ -1,0 +1,130 @@
+/*menu-container{
+  margin-top: 50px;
+  margin-left: 200px;
+  font-family: arial;
+}
+.name{
+  margin-bottom: 20px;
+  font-weight: 1000;
+  font-size: 20px;
+}
+.details{
+  border: 1px solid rgb(231, 227, 227);
+  padding: 20px;
+  width: 700px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 10px rgb(203, 200, 200);
+}
+.details .ratingcost{
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.details .cuisines{
+  color: red;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.details .discount{
+  padding: 20px 0px;
+  border-top: 1px solid rgb(231, 227, 227);
+  border-bottom: 1px solid rgb(231, 227, 227);
+  margin: 20px 0px;
+}
+.oneSubscription{
+  font-weight: 700;
+  color: red;
+}
+
+.deals-section{
+  display: flex;
+}
+
+.deal-card{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(209, 202, 202);
+  margin-top: 30px;
+  align-items: center ;
+  padding: 10px;
+  border-radius: 20px;
+  width:300px;
+  margin-right: 20px;
+}
+.deal-img .img{
+  width: 50px;
+  margin-right: 10px;
+}
+.deal-info .deal{
+  font-weight: bold;
+  font-size: 16px;
+}
+.deal-info .promoCode{
+  color: rgb(108, 108, 108);
+  font-size: 14px;
+}
+.deals-for-you{
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.menu-section{
+border-bottom: 1px solid rgb(225, 221, 221);
+margin: 50px 0px;
+}
+
+.menu-section .heading{
+  margin-left: 350px;
+  color: rgb(90, 90, 90);
+  padding-bottom: 30px; 
+  font-size: 14px;
+}
+.menu-section .searchBar{
+  padding: 15px 0px;;
+  width: 750px;
+  text-align: center;
+  background-color:rgb(225, 222, 222);
+  border: 1px solid rgb(247, 243, 243);
+  border-radius: 10px;
+  margin-bottom: 80px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.item-info{
+  display: flex;
+  padding: 30px 0px;
+  width: 700px;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(225, 223, 223);
+}
+.item-info .info{
+  font-weight: bold;
+}
+.item-info .info .rating{
+  color: green;
+}
+
+.item-info .image .item-image{
+  width: 150px;
+  border-radius: 10px;
+}
+.item-info .image{
+ display: flex;
+ flex-direction: column;
+}
+.item-info .image .add-button{
+  margin-top: -15px;
+  width: 80px;
+  margin-left: 35px;
+  padding: 7px 0px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 1px 1px 5px rgb(108, 108, 108);
+  font-weight: bold;
+  font-size: 16px;
+  color: green;
+  cursor: pointer;
+}
+.item-info .image .add-button:hover{
+  background-color:rgb(201, 200, 200);
+}
+  */
