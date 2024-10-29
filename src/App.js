@@ -29,7 +29,7 @@ const AppLayout = ()=>{
 
   useEffect(()=>{
     const data = {
-      name: "Manisha&Akhila",
+      name: "Mahesh",
     }
     setUname(data.name);
   }, [])
@@ -44,8 +44,8 @@ const AppLayout = ()=>{
           <Outlet/>
           <Footer/>
         </div> 
-        </userContext.Provider>   
-        </Provider>            
+    </userContext.Provider>   
+    </Provider>            
   );
 }; 
 
