@@ -88,7 +88,7 @@ const Body = ()=>{
 
 
   const fetchData = async ()=>{
-      const response  = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=18.0121072&lng=79.561202&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
+      const response = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=17.37240&lng=78.43780&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
       const jsonBackendData =  await response.json();
       //Optional Chaining
       const restroData = jsonBackendData?.data?.cards[4]?.card?.card?.gridElements.infoWithStyle.restaurants
