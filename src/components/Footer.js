@@ -1,7 +1,7 @@
 
 const Footer = ()=>{
   return (
-    <div className="flex justify-evenly bg-gray-500 pb-3 font-md shadow-lg text-zinc-50">
+    <div className="flex mt-96 w-screen justify-evenly bg-gray-500 py-2 text-sm md:text-base font-medium shadow-lg text-zinc-50">
      <div>Terms & Conditions</div>
      <div>Cookie Policy</div>
      <div>Privacy Policy</div>

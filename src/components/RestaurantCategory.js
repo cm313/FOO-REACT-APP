@@ -12,7 +12,7 @@ const RestaurantCategory = ({data, showItems, updateIndex})=>{
       return (
         <div>
           {/* Accordian Header */}
-         <div className=" w-[630px] border-b-[12px] p-[15px] mb-[20px]">
+         <div className=" w-full border-b-[12px] py-[15px] mb-[20px]">
             <div className="flex justify-between cursor-pointer" onClick={handleClick}>
               <div className="font-bold">{data?.title} ({data?.itemCards?.length})</div>
               <div>{arrowbtn}</div>

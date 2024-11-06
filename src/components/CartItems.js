@@ -1,6 +1,6 @@
 import {MENUITEM_IMAGES} from "../utils/constants";
 
-CartItems = (props)=>{
+const CartItems = (props)=>{
   const{items} = props;
   return (
   <div>
@@ -9,9 +9,9 @@ CartItems = (props)=>{
       const{name, imageId, price, description} = item?.card?.info;
       const{rating} = item?.card?.info?.ratings.aggregatedRating;
        return (
-        <div className="w-[500px] ml-10">
-          <div className="flex justify-center mb-4 mt-2 border-[1px] p-2 shadow-md rounded-lg">
-               <img className="h-[100px] rounded-xl object-cover" src = {MENUITEM_IMAGES + imageId}></img>
+        <div className="w-7/12 ml-10">
+          <div className="flex justify-center mt-2 border-[1px] p-2 shadow-md rounded-lg">
+               <img className="w-3/12 rounded-xl object-cover" src = {MENUITEM_IMAGES + imageId}></img>
             <div className="pl-5">
               <div className="font-sans font-bold pb-1 text-sm text-left">{name}</div>
               <div className="flex pb-1 ">

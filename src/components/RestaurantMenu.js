@@ -55,9 +55,9 @@ const categories = menuData?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards
 
 
 return (
- <div className="menu-container ml-32 w-[1000px] border-x-[1px] shadow-2xl border-transparent border-b-[1px] mb-72">
-  <div className="text-[25px] font-bold font-serif mt-10 ml-40" >{name}</div>
-  <div className="border-[10px]  rounded-2xl w-[650px] my-5 ml-40 py-5 px-5">
+ <div className="menu-container md:ml-32 ml-11 w-full md:w-9/12 border-x-[1px] shadow-2xl border-transparent border-b-[1px] mb-72 mt-20">
+  <div className="text-[25px] font-bold font-serif mt-10 ml-10 md:ml-40" >{name}</div>
+  <div className="border-[10px]  rounded-2xl w-8/12 my-5 ml-10 md:ml-40 py-5 px-5">
     <div className="font-medium pb-4 border-b-[1px] ">{avgRating}(100+ratings) . {costForTwoMessage}</div>
     <div className="font-bold text-red-600 pb-4 border-b-[1px]">{cuisines.join(",")}</div>
     <div className=" font-medium pb-4 border-b-[1px] "><b>Outlet:</b> {locality}</div>
@@ -65,44 +65,44 @@ return (
     <div className="oneSubscription font-sans font-sm text-slate-500"> Free delivery on orders above &#8377;199</div>
   </div>
 
-  <div className = "ml-40 font-bold">
+  <div className = " ml-10 md:ml-40 font-bold">
     Deals for you
   </div>
 
-  <div className = "flex items-center mt-3 pl-40">
-    <div className="flex border-[1px] border-gray-600 p-2 mr-3 rounded-[20px] w-64">
-      <div className="w-16 pr-4">
+  <div className = "flex items-center mt-3 pl-10 md:pl-40">
+    <div className="flex border-[1px] border-gray-600 p-2 mr-3 rounded-[20px] w-56 md:w-64">
+      <div className="md:w-16 w-12  md:pr-4">
         <img className="img" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_96,h_96/offers/welcome"></img>
       </div>
       <div className="deal-info">
-        <div className="font-bold">
+        <div className="font-bold md:text-base text-sm">
           Flat &#8377;100 Off
         </div>
-        <div className="text-gray-500">
+        <div className="text-gray-500 md:text-base text-sm">
           USE WELCOMEBACK100
         </div>
       </div>
     </div>
 
-    <div className="flex border-[1px] border-gray-600 p-2 rounded-[20px] w-64">
-      <div className="w-16 pr-4">
+    <div className="flex border-[1px] border-gray-600 p-2 rounded-[20px] w-54 md:w-64">
+      <div className="md:w-16 w-12 md:pr-4">
         <img className="img" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_96,h_96/offers/generic"></img>
       </div>
       <div className="deal-info">
-        <div className="font-bold">
+        <div className="font-bold md:text-base text-sm">
           30% Off upto &#8377;75
         </div>
-        <div className="text-gray-500">
+        <div className="text-gray-500 md:text-base text-sm">
           USE SAVINGS4ONE
         </div>
       </div>
     </div>
   </div>
   
-  <div className="mt-5 ml-40 w-[600px]">
+  <div className="mt-5 md:ml-40 ml-10 w-9/12">
     <div className="pl-56">M E N U</div>
     <div className="my-5">
-      <input className="border-[1px] py-2 px-56 bg-gray-300 rounded-lg" type = "text" placeholder="search for dishes"></input>
+      <input className="border-[1px] py-2 px-2 w-full bg-gray-300 rounded-lg" type = "text" placeholder="search for dishes"></input>
     </div>
 
     {
@@ -112,7 +112,7 @@ return (
      }}/>
       ))
    }
-    <div className="h-60 mb-5 rounded-sm w-[630px] p-4 bg-gradient-to-tr from-teal-50 to-yellow-50 border-transparent shadow-sm my-8" >
+    <div className="h-60 mb-5 rounded-sm w-full p-4 bg-gradient-to-tr from-teal-50 to-yellow-50 border-transparent shadow-sm my-8" >
      <div className="font-sans font-bold">{name}</div>
      <div className="font-mono font-extralight text-sm">Outlet: {locality}</div>
      <hr className="h-[1px] my-5 bg-gray-200 border-0 dark:bg-gray-400"></hr>

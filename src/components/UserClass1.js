@@ -1,3 +1,4 @@
+/*
 import React from "react";
 
 class UserClass1 extends React.Component{
@@ -61,3 +62,4 @@ render(){
 }
 
 export default UserClass1;
+*/

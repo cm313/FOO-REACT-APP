@@ -16,13 +16,13 @@ const RestaurantCard = (props)=>{
   //const{userName} = useContext(userContext);  
 
   return (
-  <div data-testid = "ResCard" className = "restro-card mx-3 my-3 px-3 py-3 w-[260px] transition-transform duration-100 ease-in-out hover:cursor-pointer hover:scale-90 text-black overflow-hidden">
-   <div className = "logo-container w-96">
-    <img className = "w-60 h-40 rounded-xl object-cover" src={
+  <div data-testid = "ResCard" className = "restro-card mx-3 my-3 md:px-3 md:py-3 md:w-64 w-36 transition-transform duration-100 ease-in-out hover:cursor-pointer hover:scale-90 text-black overflow-hidden">
+   <div className = "logo-container md:w-96 w-44">
+    <img className = "md:w-60 w-32 md:h-40 h-32 rounded-xl object-cover" src={
      CDN_URL + cloudinaryImageId
     } alt="loading.."></img>
     </div>
-    <div className="leading-relaxed ">
+    <div className="leading-relaxed">
       <div className="font-bold font-serif">{name}</div>
       <div className="text-sm flex items-center">
           <img className="w-4 h-4" src="https://tse2.mm.bing.net/th?id=OIP.Vq4iQC8p3quhWYipAjoIIAAAAA&amp;pid=Api&amp;P=0&amp;w=300&amp;h=300"></img>

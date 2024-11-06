@@ -42,6 +42,8 @@
  export default UserClass;
  */
 
+ /*
+
  import React  from "react";
  import UserClass1 from "./UserClass1";
 
@@ -68,3 +70,4 @@
 }
 
 export default UserClass;
+*/

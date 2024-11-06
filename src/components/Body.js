@@ -91,7 +91,7 @@ const Body = ()=>{
       const response = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=17.37240&lng=78.43780&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
       const jsonBackendData =  await response.json();
       //Optional Chaining
-      const restroData = jsonBackendData?.data?.cards[4]?.card?.card?.gridElements.infoWithStyle.restaurants
+      const restroData = jsonBackendData?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
       setListOfRestaurant(restroData);
       setFullListOfRestaurants(restroData);
   }; 
@@ -115,15 +115,15 @@ const Body = ()=>{
  
 // writing above condition using Ternary Operator
   return (
-    listOfRestaurants.length === 0 ? <ShimmerUI/>
+    listOfRestaurants?.length === 0 ? <ShimmerUI/>
   :<div className="body">
-      <div className = "flex  my-8 items-center">
-        <div className="px-5">
-          <input  data-testid="searchInput" className=" ml-10 mr-2 my-2 pr-28 border-2 pl-2 border-gray-300 shadow-2xl rounded-full" type="text" placeholder="Search Restaurants" value={searchText} onChange={(e)=>{
+      <div className = "flex items-center">
+        <div className="md:px-5 px-3 my-20">
+          <input  data-testid="searchInput" className=" md:ml-10 ml-2 mr-2 px-4 md:w-96 border-2 border-gray-300 shadow-2xl rounded-full" type="text" placeholder="Search Restaurants" value={searchText} onChange={(e)=>{
             {/*This "e.target.value" is given to us by the browser */}
              setSearchText(e.target.value);
           }}></input>
-          <button className=" w-5 -ml-12" onClick = {()=>{
+          <button className="w-5 -ml-12" onClick = {()=>{
             const filteredResult = fullListOfRestaurants.filter((restaurants)=>
             restaurants.info.name.toLowerCase().includes(searchText.toLowerCase())
             );
@@ -142,7 +142,7 @@ const Body = ()=>{
           Username:  <input className="rounded-md" value ={userName} onChange={(e)=>{setUname(e.target.value)}}></input>
         </div> */}
       </div>
-  <div className="flex flex-wrap ml-16 mb-96 shadow-2xl w-[1150px] border-x-[1px] border-b-[1px] border-transparent">
+  <div className="flex flex-wrap ml-5 mb-5 md:ml-16 md:mb-96 shadow-2xl w-11/12 border-x-[1px] border-b-[1px] border-transparent">
    {listOfRestaurants.map((restaurant) => (
       <Link key = {restaurant.info.id}  to = { "/restaurant/" + restaurant.info.id}>
         { 

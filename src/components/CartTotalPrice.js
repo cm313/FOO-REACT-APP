@@ -1,5 +1,5 @@
 
-CartTotalPrice = (props)=>{
+const CartTotalPrice = (props)=>{
   let totalPrice = 0 ;
 const {items} = props;
 {
@@ -9,7 +9,7 @@ const {items} = props;
   });
 
   return (
-    <div className="border-[1px] w-[500px] rounded-md shadow-md ml-[145px] p-2">
+    <div className="border-[1px] w-[100%] mr-60 rounded-md shadow-md p-2">
       <div className="text-left font-medium">Bill Details</div>
       <div className="flex justify-between text-sm text-slate-600">
         <div>Item Total</div>
